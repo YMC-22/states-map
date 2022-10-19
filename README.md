@@ -1,1 +1,1 @@
-# states-map nd59  
+### The States Map US plugin allows you to display information about each state on a map. A beautiful pop-up window interface will display information about the selected state. Simplicity and convenience will allow you to integrate this map anywhere on your page on the site.
