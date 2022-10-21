@@ -27,8 +27,8 @@ Simplicity and convenience will allow you to integrate this map anywhere on your
 
 
 == ScreenShots ==
-1. Individual Setting Filter
-2. Use Shortcode Map with search filed
+1. Use Shortcode Map
+2. Individual Setting Map
 3. Display map on the page
 4. Example work map
 
