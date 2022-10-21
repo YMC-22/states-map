@@ -15,9 +15,7 @@ The interactive map will display information for each US state in a pop-up windo
 
 == Description ==
 
-The interactive map will display information for each US state in a pop-up window.
-The States Map US plugin allows you to display information about each state on a map.
-A beautiful pop-up window interface will display information about the selected state.
+The interactive map will display information for each US state in a pop-up window. The States Map US plugin allows you to display information about each state on a map. A beautiful pop-up window interface will display information about the selected state.
 Simplicity and convenience will allow you to integrate this map anywhere on your page on the site.
 
 == Installation ==
