@@ -2,7 +2,7 @@
 Plugin Name: States Map US
 Contributors: YMC
 Version: 1.0.0
-Donate link: https://github.com/YMC-22/smart-filter
+Donate link: https://github.com/YMC-22/states-map
 Tags: map, usa, posts, taxonomy, custom taxonomy
 Requires at least: 4.8
 Tested up to: 6.0.1
