@@ -5,7 +5,7 @@ Version: 1.0.1
 Donate link: https://github.com/YMC-22/states-map
 Tags: map, usa, posts, taxonomy, custom taxonomy
 Requires at least: 4.8
-Tested up to: 6.0.1
+Tested up to: 6.1
 Stable tag: 1.0.1
 Requires PHP: 7.0
 License: GPLv2 or later
