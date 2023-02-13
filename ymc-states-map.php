@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * -------------------------------------------------------------------------------*/
 
 if ( ! defined('YMC_STATES_VERSION') ) {
-	   define( 'YMC_STATES_VERSION', '1.0.0' );
+	   define( 'YMC_STATES_VERSION', '1.0.1' );
 }
 
 if ( ! defined('YMC_STATES_DIR') ) {

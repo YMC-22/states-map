@@ -71,7 +71,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ma', $title_ma );
 		}
 		if( isset($_POST['ymc_text_states_map_ma']) ) {
-			$text_ma =  sanitize_text_field($_POST['ymc_text_states_map_ma']);
+			$text_ma =  wp_kses_post($_POST['ymc_text_states_map_ma']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ma', $text_ma );
 		}
 		if( isset($_POST['ymc_link_states_map_ma']) ) {
@@ -84,7 +84,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_mn', $title_mn );
 		}
 		if( isset($_POST['ymc_text_states_map_mn']) ) {
-			$text_mn = sanitize_text_field($_POST['ymc_text_states_map_mn']);
+			$text_mn = wp_kses_post($_POST['ymc_text_states_map_mn']);
 			update_post_meta( $post_id, 'ymc_text_states_map_mn', $text_mn );
 		}
 		if( isset($_POST['ymc_link_states_map_mn']) ) {
@@ -97,7 +97,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_mt', $title_mt );
 		}
 		if( isset($_POST['ymc_text_states_map_mt']) ) {
-			$text_mt = sanitize_text_field($_POST['ymc_text_states_map_mt']);
+			$text_mt = wp_kses_post($_POST['ymc_text_states_map_mt']);
 			update_post_meta( $post_id, 'ymc_text_states_map_mt', $text_mt );
 		}
 		if( isset($_POST['ymc_link_states_map_mt']) ) {
@@ -110,7 +110,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_nd', $title_nd );
 		}
 		if( isset($_POST['ymc_text_states_map_nd']) ) {
-			$text_nd = sanitize_text_field($_POST['ymc_text_states_map_nd']);
+			$text_nd = wp_kses_post($_POST['ymc_text_states_map_nd']);
 			update_post_meta( $post_id, 'ymc_text_states_map_nd', $text_nd );
 		}
 		if( isset($_POST['ymc_link_states_map_nd']) ) {
@@ -123,7 +123,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_hi', $title_hi );
 		}
 		if( isset($_POST['ymc_text_states_map_hi']) ) {
-			$text_hi = sanitize_text_field($_POST['ymc_text_states_map_hi']);
+			$text_hi = wp_kses_post($_POST['ymc_text_states_map_hi']);
 			update_post_meta( $post_id, 'ymc_text_states_map_hi', $text_hi );
 		}
 		if( isset($_POST['ymc_link_states_map_hi']) ) {
@@ -136,7 +136,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_id', $title_id );
 		}
 		if( isset($_POST['ymc_text_states_map_id']) ) {
-			$text_id = sanitize_text_field($_POST['ymc_text_states_map_id']);
+			$text_id = wp_kses_post($_POST['ymc_text_states_map_id']);
 			update_post_meta( $post_id, 'ymc_text_states_map_id', $text_id );
 		}
 		if( isset($_POST['ymc_link_states_map_id']) ) {
@@ -149,7 +149,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_wa', $title_wa );
 		}
 		if( isset($_POST['ymc_text_states_map_wa']) ) {
-			$text_wa = sanitize_text_field($_POST['ymc_text_states_map_wa']);
+			$text_wa = wp_kses_post($_POST['ymc_text_states_map_wa']);
 			update_post_meta( $post_id, 'ymc_text_states_map_wa', $text_wa );
 		}
 		if( isset($_POST['ymc_link_states_map_wa']) ) {
@@ -162,7 +162,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_az', $title_az );
 		}
 		if( isset($_POST['ymc_text_states_map_az']) ) {
-			$text_az = sanitize_text_field($_POST['ymc_text_states_map_az']);
+			$text_az = wp_kses_post($_POST['ymc_text_states_map_az']);
 			update_post_meta( $post_id, 'ymc_text_states_map_az', $text_az );
 		}
 		if( isset($_POST['ymc_link_states_map_az']) ) {
@@ -175,7 +175,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ca', $title_ca );
 		}
 		if( isset($_POST['ymc_text_states_map_ca']) ) {
-			$text_ca = sanitize_text_field($_POST['ymc_text_states_map_ca']);
+			$text_ca = wp_kses_post($_POST['ymc_text_states_map_ca']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ca', $text_ca );
 		}
 		if( isset($_POST['ymc_link_states_map_ca']) ) {
@@ -201,7 +201,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_nv', $title_nv );
 		}
 		if( isset($_POST['ymc_text_states_map_nv']) ) {
-			$text_nv = sanitize_text_field($_POST['ymc_text_states_map_nv']);
+			$text_nv = wp_kses_post($_POST['ymc_text_states_map_nv']);
 			update_post_meta( $post_id, 'ymc_text_states_map_nv', $text_nv );
 		}
 		if( isset($_POST['ymc_link_states_map_nv']) ) {
@@ -214,7 +214,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_nm', $title_nm );
 		}
 		if( isset($_POST['ymc_text_states_map_nm']) ) {
-			$text_nm = sanitize_text_field($_POST['ymc_text_states_map_nm']);
+			$text_nm = wp_kses_post($_POST['ymc_text_states_map_nm']);
 			update_post_meta( $post_id, 'ymc_text_states_map_nm', $text_nm );
 		}
 		if( isset($_POST['ymc_link_states_map_nm']) ) {
@@ -227,7 +227,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_or', $title_or );
 		}
 		if( isset($_POST['ymc_text_states_map_or']) ) {
-			$text_or = sanitize_text_field($_POST['ymc_text_states_map_or']);
+			$text_or = wp_kses_post($_POST['ymc_text_states_map_or']);
 			update_post_meta( $post_id, 'ymc_text_states_map_or', $text_or );
 		}
 		if( isset($_POST['ymc_link_states_map_or']) ) {
@@ -240,7 +240,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ut', $title_ut );
 		}
 		if( isset($_POST['ymc_text_states_map_ut']) ) {
-			$text_ut = sanitize_text_field($_POST['ymc_text_states_map_ut']);
+			$text_ut = wp_kses_post($_POST['ymc_text_states_map_ut']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ut', $text_ut );
 		}
 		if( isset($_POST['ymc_link_states_map_ut']) ) {
@@ -253,7 +253,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_wy', $title_wy );
 		}
 		if( isset($_POST['ymc_text_states_map_wy']) ) {
-			$text_wy = sanitize_text_field($_POST['ymc_text_states_map_wy']);
+			$text_wy = wp_kses_post($_POST['ymc_text_states_map_wy']);
 			update_post_meta( $post_id, 'ymc_text_states_map_wy', $text_wy );
 		}
 		if( isset($_POST['ymc_link_states_map_wy']) ) {
@@ -266,7 +266,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ar', $title_ar );
 		}
 		if( isset($_POST['ymc_text_states_map_ar']) ) {
-			$text_ar = sanitize_text_field($_POST['ymc_text_states_map_ar']);
+			$text_ar = wp_kses_post($_POST['ymc_text_states_map_ar']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ar', $text_ar );
 		}
 		if( isset($_POST['ymc_link_states_map_ar']) ) {
@@ -279,7 +279,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ia', $title_ia );
 		}
 		if( isset($_POST['ymc_text_states_map_ia']) ) {
-			$text_ia = sanitize_text_field($_POST['ymc_text_states_map_ia']);
+			$text_ia = wp_kses_post($_POST['ymc_text_states_map_ia']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ia', $text_ia );
 		}
 		if( isset($_POST['ymc_link_states_map_ia']) ) {
@@ -292,7 +292,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ks', $title_ks );
 		}
 		if( isset($_POST['ymc_text_states_map_ks']) ) {
-			$text_ks = sanitize_text_field($_POST['ymc_text_states_map_ks']);
+			$text_ks = wp_kses_post($_POST['ymc_text_states_map_ks']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ks', $text_ks );
 		}
 		if( isset($_POST['ymc_link_states_map_ks']) ) {
@@ -305,7 +305,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_mo', $title_mo );
 		}
 		if( isset($_POST['ymc_text_states_map_mo']) ) {
-			$text_mo = sanitize_text_field($_POST['ymc_text_states_map_mo']);
+			$text_mo = wp_kses_post($_POST['ymc_text_states_map_mo']);
 			update_post_meta( $post_id, 'ymc_text_states_map_mo', $text_mo );
 		}
 		if( isset($_POST['ymc_link_states_map_mo']) ) {
@@ -318,7 +318,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ne', $title_ne );
 		}
 		if( isset($_POST['ymc_text_states_map_ne']) ) {
-			$text_ne = sanitize_text_field($_POST['ymc_text_states_map_ne']);
+			$text_ne = wp_kses_post($_POST['ymc_text_states_map_ne']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ne', $text_ne );
 		}
 		if( isset($_POST['ymc_link_states_map_ne']) ) {
@@ -331,7 +331,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ok', $title_ok );
 		}
 		if( isset($_POST['ymc_text_states_map_ok']) ) {
-			$text_ok = sanitize_text_field($_POST['ymc_text_states_map_ok']);
+			$text_ok = wp_kses_post($_POST['ymc_text_states_map_ok']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ok', $text_ok );
 		}
 		if( isset($_POST['ymc_link_states_map_ok']) ) {
@@ -344,7 +344,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_sd', $title_sd );
 		}
 		if( isset($_POST['ymc_text_states_map_sd']) ) {
-			$text_sd = sanitize_text_field($_POST['ymc_text_states_map_sd']);
+			$text_sd = wp_kses_post($_POST['ymc_text_states_map_sd']);
 			update_post_meta( $post_id, 'ymc_text_states_map_sd', $text_sd );
 		}
 		if( isset($_POST['ymc_link_states_map_sd']) ) {
@@ -357,7 +357,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_la', $title_la );
 		}
 		if( isset($_POST['ymc_text_states_map_la']) ) {
-			$text_la = sanitize_text_field($_POST['ymc_text_states_map_la']);
+			$text_la = wp_kses_post($_POST['ymc_text_states_map_la']);
 			update_post_meta( $post_id, 'ymc_text_states_map_la', $text_la );
 		}
 		if( isset($_POST['ymc_link_states_map_la']) ) {
@@ -370,7 +370,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_tx', $title_tx );
 		}
 		if( isset($_POST['ymc_text_states_map_tx']) ) {
-			$text_tx = sanitize_text_field($_POST['ymc_text_states_map_tx']);
+			$text_tx = wp_kses_post($_POST['ymc_text_states_map_tx']);
 			update_post_meta( $post_id, 'ymc_text_states_map_tx', $text_tx );
 		}
 		if( isset($_POST['ymc_link_states_map_tx']) ) {
@@ -383,7 +383,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ct', $title_ct );
 		}
 		if( isset($_POST['ymc_text_states_map_ct']) ) {
-			$text_ct = sanitize_text_field($_POST['ymc_text_states_map_ct']);
+			$text_ct = wp_kses_post($_POST['ymc_text_states_map_ct']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ct', $text_ct );
 		}
 		if( isset($_POST['ymc_link_states_map_ct']) ) {
@@ -396,7 +396,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_nh', $title_nh );
 		}
 		if( isset($_POST['ymc_text_states_map_nh']) ) {
-			$text_nh = sanitize_text_field($_POST['ymc_text_states_map_nh']);
+			$text_nh = wp_kses_post($_POST['ymc_text_states_map_nh']);
 			update_post_meta( $post_id, 'ymc_text_states_map_nh', $text_nh );
 		}
 		if( isset($_POST['ymc_link_states_map_nh']) ) {
@@ -409,7 +409,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ri', $title_ri );
 		}
 		if( isset($_POST['ymc_text_states_map_ri']) ) {
-			$text_ri = sanitize_text_field($_POST['ymc_text_states_map_ri']);
+			$text_ri = wp_kses_post($_POST['ymc_text_states_map_ri']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ri', $text_ri );
 		}
 		if( isset($_POST['ymc_link_states_map_ri']) ) {
@@ -422,7 +422,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_vt', $title_vt );
 		}
 		if( isset($_POST['ymc_text_states_map_vt']) ) {
-			$text_vt = sanitize_text_field($_POST['ymc_text_states_map_vt']);
+			$text_vt = wp_kses_post($_POST['ymc_text_states_map_vt']);
 			update_post_meta( $post_id, 'ymc_text_states_map_vt', $text_vt );
 		}
 		if( isset($_POST['ymc_link_states_map_vt']) ) {
@@ -435,7 +435,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_al', $title_al );
 		}
 		if( isset($_POST['ymc_text_states_map_al']) ) {
-			$text_al = sanitize_text_field($_POST['ymc_text_states_map_al']);
+			$text_al = wp_kses_post($_POST['ymc_text_states_map_al']);
 			update_post_meta( $post_id, 'ymc_text_states_map_al', $text_al );
 		}
 		if( isset($_POST['ymc_link_states_map_al']) ) {
@@ -448,7 +448,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_fl', $title_fl );
 		}
 		if( isset($_POST['ymc_text_states_map_fl']) ) {
-			$text_fl = sanitize_text_field($_POST['ymc_text_states_map_fl']);
+			$text_fl = wp_kses_post($_POST['ymc_text_states_map_fl']);
 			update_post_meta( $post_id, 'ymc_text_states_map_fl', $text_fl );
 		}
 		if( isset($_POST['ymc_link_states_map_fl']) ) {
@@ -461,7 +461,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ga', $title_ga );
 		}
 		if( isset($_POST['ymc_text_states_map_ga']) ) {
-			$text_ga = sanitize_text_field($_POST['ymc_text_states_map_ga']);
+			$text_ga = wp_kses_post($_POST['ymc_text_states_map_ga']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ga', $text_ga );
 		}
 		if( isset($_POST['ymc_link_states_map_ga']) ) {
@@ -474,7 +474,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ms', $title_ms );
 		}
 		if( isset($_POST['ymc_text_states_map_ms']) ) {
-			$text_ms = sanitize_text_field($_POST['ymc_text_states_map_ms']);
+			$text_ms = wp_kses_post($_POST['ymc_text_states_map_ms']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ms', $text_ms );
 		}
 		if( isset($_POST['ymc_link_states_map_ms']) ) {
@@ -487,7 +487,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_sc', $title_sc );
 		}
 		if( isset($_POST['ymc_text_states_map_sc']) ) {
-			$text_sc = sanitize_text_field($_POST['ymc_text_states_map_sc']);
+			$text_sc = wp_kses_post($_POST['ymc_text_states_map_sc']);
 			update_post_meta( $post_id, 'ymc_text_states_map_sc', $text_sc );
 		}
 		if( isset($_POST['ymc_link_states_map_sc']) ) {
@@ -500,7 +500,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_il', $title_il );
 		}
 		if( isset($_POST['ymc_text_states_map_il']) ) {
-			$text_il = sanitize_text_field($_POST['ymc_text_states_map_il']);
+			$text_il = wp_kses_post($_POST['ymc_text_states_map_il']);
 			update_post_meta( $post_id, 'ymc_text_states_map_il', $text_il );
 		}
 		if( isset($_POST['ymc_link_states_map_il']) ) {
@@ -513,7 +513,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_in', $title_in );
 		}
 		if( isset($_POST['ymc_text_states_map_in']) ) {
-			$text_in = sanitize_text_field($_POST['ymc_text_states_map_in']);
+			$text_in = wp_kses_post($_POST['ymc_text_states_map_in']);
 			update_post_meta( $post_id, 'ymc_text_states_map_in', $text_in );
 		}
 		if( isset($_POST['ymc_link_states_map_in']) ) {
@@ -526,7 +526,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ky', $title_ky );
 		}
 		if( isset($_POST['ymc_text_states_map_ky']) ) {
-			$text_ky = sanitize_text_field($_POST['ymc_text_states_map_ky']);
+			$text_ky = wp_kses_post($_POST['ymc_text_states_map_ky']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ky', $text_ky );
 		}
 		if( isset($_POST['ymc_link_states_map_ky']) ) {
@@ -539,7 +539,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_nc', $title_nc );
 		}
 		if( isset($_POST['ymc_text_states_map_nc']) ) {
-			$text_nc = sanitize_text_field($_POST['ymc_text_states_map_nc']);
+			$text_nc = wp_kses_post($_POST['ymc_text_states_map_nc']);
 			update_post_meta( $post_id, 'ymc_text_states_map_nc', $text_nc );
 		}
 		if( isset($_POST['ymc_link_states_map_nc']) ) {
@@ -552,7 +552,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_oh', $title_oh );
 		}
 		if( isset($_POST['ymc_text_states_map_oh']) ) {
-			$text_oh = sanitize_text_field($_POST['ymc_text_states_map_oh']);
+			$text_oh = wp_kses_post($_POST['ymc_text_states_map_oh']);
 			update_post_meta( $post_id, 'ymc_text_states_map_oh', $text_oh );
 		}
 		if( isset($_POST['ymc_link_states_map_oh']) ) {
@@ -565,7 +565,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_tn', $title_tn );
 		}
 		if( isset($_POST['ymc_text_states_map_tn']) ) {
-			$text_tn = sanitize_text_field($_POST['ymc_text_states_map_tn']);
+			$text_tn = wp_kses_post($_POST['ymc_text_states_map_tn']);
 			update_post_meta( $post_id, 'ymc_text_states_map_tn', $text_tn );
 		}
 		if( isset($_POST['ymc_link_states_map_tn']) ) {
@@ -578,7 +578,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_va', $title_va );
 		}
 		if( isset($_POST['ymc_text_states_map_va']) ) {
-			$text_va = sanitize_text_field($_POST['ymc_text_states_map_va']);
+			$text_va = wp_kses_post($_POST['ymc_text_states_map_va']);
 			update_post_meta( $post_id, 'ymc_text_states_map_va', $text_va );
 		}
 		if( isset($_POST['ymc_link_states_map_va']) ) {
@@ -591,7 +591,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_wi', $title_wi );
 		}
 		if( isset($_POST['ymc_text_states_map_wi']) ) {
-			$text_wi = sanitize_text_field($_POST['ymc_text_states_map_wi']);
+			$text_wi = wp_kses_post($_POST['ymc_text_states_map_wi']);
 			update_post_meta( $post_id, 'ymc_text_states_map_wi', $text_wi );
 		}
 		if( isset($_POST['ymc_link_states_map_wi']) ) {
@@ -604,7 +604,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_wv', $title_wv );
 		}
 		if( isset($_POST['ymc_text_states_map_wv']) ) {
-			$text_wv = sanitize_text_field($_POST['ymc_text_states_map_wv']);
+			$text_wv = wp_kses_post($_POST['ymc_text_states_map_wv']);
 			update_post_meta( $post_id, 'ymc_text_states_map_wv', $text_wv );
 		}
 		if( isset($_POST['ymc_link_states_map_wv']) ) {
@@ -617,7 +617,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_de', $title_de );
 		}
 		if( isset($_POST['ymc_text_states_map_de']) ) {
-			$text_de = sanitize_text_field($_POST['ymc_text_states_map_de']);
+			$text_de = wp_kses_post($_POST['ymc_text_states_map_de']);
 			update_post_meta( $post_id, 'ymc_text_states_map_de', $text_de );
 		}
 		if( isset($_POST['ymc_link_states_map_de']) ) {
@@ -630,7 +630,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_dc', $title_dc );
 		}
 		if( isset($_POST['ymc_text_states_map_dc']) ) {
-			$text_dc = sanitize_text_field($_POST['ymc_text_states_map_dc']);
+			$text_dc = wp_kses_post($_POST['ymc_text_states_map_dc']);
 			update_post_meta( $post_id, 'ymc_text_states_map_dc', $text_dc );
 		}
 		if( isset($_POST['ymc_link_states_map_dc']) ) {
@@ -643,7 +643,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_md', $title_md );
 		}
 		if( isset($_POST['ymc_text_states_map_md']) ) {
-			$text_md = sanitize_text_field($_POST['ymc_text_states_map_md']);
+			$text_md = wp_kses_post($_POST['ymc_text_states_map_md']);
 			update_post_meta( $post_id, 'ymc_text_states_map_md', $text_md );
 		}
 		if( isset($_POST['ymc_link_states_map_md']) ) {
@@ -656,7 +656,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_nj', $title_nj );
 		}
 		if( isset($_POST['ymc_text_states_map_nj']) ) {
-			$text_nj = sanitize_text_field($_POST['ymc_text_states_map_nj']);
+			$text_nj = wp_kses_post($_POST['ymc_text_states_map_nj']);
 			update_post_meta( $post_id, 'ymc_text_states_map_nj', $text_nj );
 		}
 		if( isset($_POST['ymc_link_states_map_nj']) ) {
@@ -669,7 +669,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ny', $title_ny );
 		}
 		if( isset($_POST['ymc_text_states_map_ny']) ) {
-			$text_ny = sanitize_text_field($_POST['ymc_text_states_map_ny']);
+			$text_ny = wp_kses_post($_POST['ymc_text_states_map_ny']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ny', $text_ny );
 		}
 		if( isset($_POST['ymc_link_states_map_ny']) ) {
@@ -682,7 +682,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_pa', $title_pa );
 		}
 		if( isset($_POST['ymc_text_states_map_pa']) ) {
-			$text_pa = sanitize_text_field($_POST['ymc_text_states_map_pa']);
+			$text_pa = wp_kses_post($_POST['ymc_text_states_map_pa']);
 			update_post_meta( $post_id, 'ymc_text_states_map_pa', $text_pa );
 		}
 		if( isset($_POST['ymc_link_states_map_pa']) ) {
@@ -695,7 +695,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_me', $title_me );
 		}
 		if( isset($_POST['ymc_text_states_map_me']) ) {
-			$text_me = sanitize_text_field($_POST['ymc_text_states_map_me']);
+			$text_me = wp_kses_post($_POST['ymc_text_states_map_me']);
 			update_post_meta( $post_id, 'ymc_text_states_map_me', $text_me );
 		}
 		if( isset($_POST['ymc_link_states_map_me']) ) {
@@ -708,7 +708,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_mi', $title_mi );
 		}
 		if( isset($_POST['ymc_text_states_map_mi']) ) {
-			$text_mi = sanitize_text_field($_POST['ymc_text_states_map_mi']);
+			$text_mi = wp_kses_post($_POST['ymc_text_states_map_mi']);
 			update_post_meta( $post_id, 'ymc_text_states_map_mi', $text_mi );
 		}
 		if( isset($_POST['ymc_link_states_map_mi']) ) {
@@ -721,7 +721,7 @@ class Meta_Boxes {
 			update_post_meta( $post_id, 'ymc_title_states_map_ak', $title_ak );
 		}
 		if( isset($_POST['ymc_text_states_map_ak']) ) {
-			$text_ak = sanitize_text_field($_POST['ymc_text_states_map_ak']);
+			$text_ak = wp_kses_post($_POST['ymc_text_states_map_ak']);
 			update_post_meta( $post_id, 'ymc_text_states_map_ak', $text_ak );
 		}
 		if( isset($_POST['ymc_link_states_map_ak']) ) {
