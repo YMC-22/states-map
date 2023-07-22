@@ -349,7 +349,7 @@ class Meta_Boxes {
 		}
 		if( isset($_POST['ymc_link_states_map_sd']) ) {
 			$link_sd = sanitize_url( $_POST['ymc_link_states_map_sd'] );
-			update_post_meta( $post_id, 'ymc_link_states_map_ok', $link_sd );
+			update_post_meta( $post_id, 'ymc_link_states_map_sd', $link_sd );
 		}
         // Louisiana
 		if( isset($_POST['ymc_title_states_map_la']) ) {
@@ -635,7 +635,7 @@ class Meta_Boxes {
 		}
 		if( isset($_POST['ymc_link_states_map_dc']) ) {
 			$link_dc = sanitize_url( $_POST['ymc_link_states_map_dc'] );
-			update_post_meta( $post_id, 'ymc_link_states_map_de', $link_dc );
+			update_post_meta( $post_id, 'ymc_link_states_map_dc', $link_dc );
 		}
         // Maryland
 		if( isset($_POST['ymc_title_states_map_md']) ) {
