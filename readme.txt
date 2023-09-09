@@ -1,13 +1,13 @@
 ===  States Map US ===
 Plugin Name: States Map US
 Contributors: YMC
-Version: 1.2.1
+Version: 1.2.2
 Donate link: https://github.com/YMC-22/states-map
 Tags: map, usa, posts, taxonomy, custom taxonomy
 Requires at least: 4.8
 Tested up to: 6.3
-Stable tag: 1.2.1
-Requires PHP: 7.0
+Stable tag: 1.2.2
+Requires PHP: 7.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -36,9 +36,6 @@ Simplicity and convenience will allow you to integrate this map anywhere on your
 == Frequently Asked Questions ==
 
 == Changelog ==
-1.0.2 Fixed text field
-== 1.1.1 ==
-Fixed js
 
 == Video ==
 https://www.youtube.com/watch?v=rY-lFPr2a2k
