@@ -2060,14 +2060,17 @@ class Meta_Boxes {
 	public function side_meta_box() { ?>
 		<article>
 			<?php
-			echo esc_html__('The States Map US plugin allows you to display information about each state on a map. 
+			echo esc_html__('States Map US plugin allows you to display information about each state on a map. 
 			A beautiful pop-up window interface will display information about the selected state. 
 			Simplicity and convenience will allow you to integrate this map anywhere on your page on the site.','ymc-states-map');
 
             echo '<hr/>';
             echo '<img width="100%" src="'.YMC_STATES_URL . 'includes/assets/images/map_usa.png">';
-
-            ?>
+			?>
+			<hr/>
+			<strong style="color: #000; font-weight: 700; line-height: 1.2; font-size: 16px; background: #098ab821; display: block; padding: 7px 5px;">
+				Did you like or find our plugin helpful? To support the plugin, you can make a <a target="_blank" href="https://www.paypal.com/donate/?hosted_button_id=B2MHM5LM29UGW">Donation</a>
+			</strong>.
 
 		</article>
 	<?php }
