@@ -4,7 +4,7 @@
  *
  * Plugin Name:       States Map US
  * Description:       The interactive map will display information for each US state in a pop-up window.
- * Version:           2.1
+ * Version:           2.3
  * Author:            YMC
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
@@ -35,7 +35,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * -------------------------------------------------------------------------------*/
 
 if ( ! defined('YMC_STATES_VERSION') ) {
-	   define( 'YMC_STATES_VERSION', '2.1' );
+	   define( 'YMC_STATES_VERSION', '2.3' );
 }
 
 if ( ! defined('YMC_STATES_DIR') ) {
